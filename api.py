@@ -108,4 +108,5 @@ def prediction(result):
     return result
 # NEED a GET request to send Fastai result to user
 # NEED a POST request to receive data from user
-app.run()
+if __name__ == '__main__':
+    app.run()
