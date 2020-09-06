@@ -13,6 +13,7 @@ fastcore==1.0.1
 fastprogress==1.0.0
 Flask==1.1.2
 future==0.18.2
+gunicorn==20.0.4
 idna==2.10
 importlib-metadata==1.7.0
 ipython==7.18.1

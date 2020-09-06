@@ -6,7 +6,7 @@ import os
 
 
 
-UPLOAD_FOLDER = '/mnt/c/Users/13058/Documents/Work/FastAI/ROOM/backend'
+UPLOAD_FOLDER = './images'
 ALLOWED_EXTENSIONS = {'png','jpg','jpeg'}
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
